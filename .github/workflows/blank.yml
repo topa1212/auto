@@ -2,6 +2,7 @@ name: AI
 on:
   schedule:
     - cron: '* * * * *' # At 00:00 on Monday
+  workflow_dispatch:
 
 jobs:
   build:
